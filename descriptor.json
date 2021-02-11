@@ -1,0 +1,17 @@
+{
+  "Descriptor": {
+    "UId": "cb66e314-d6c8-49fe-9b94-8e6be89ea074",
+    "PackageVersion": "7.8.0",
+    "Name": "CgrNewPackage",
+    "ModifiedOnUtc": "/Date(1611844450000)/",
+    "Maintainer": "",
+    "DependsOn": [
+      {
+        "UId": "fbf9c26a-81ad-40a6-bd8e-0f706cf92c7e",
+        "PackageVersion": "1.0.0",
+        "Name": "NewPackage"
+
+      }
+    ]
+  }
+}
