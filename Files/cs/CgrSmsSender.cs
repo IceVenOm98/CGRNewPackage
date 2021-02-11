@@ -20,7 +20,6 @@ namespace CgrNewPackage
             string pattern = @"^[а-яА-Яa-zA-Z0-9.!?]*;\+[0-9]*$";
             if (Regex.IsMatch(messageAndNumber, pattern, RegexOptions.IgnoreCase))
             {
-
                 string[] messageData = messageAndNumber.Split(";".ToCharArray()[0]);
                 // Find your Account Sid and Token at twilio.com/console
                 // and set the environment variables. See http://twil.io/secure
